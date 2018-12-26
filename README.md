@@ -1,4 +1,4 @@
-#Minifit | Keep Simply
+# Minifit | Keep Simply
 
 This is Minifit app source files to compile with [ElectronJs]("https://electronjs.org/")
 
@@ -21,6 +21,6 @@ Minifit converts by default all files extension (.js) to (.min.js) but you can c
 
 ------------------------
 
-#All rights reserved
+# All rights reserved
 
 Minifit is developed by BlobySoftware®, Minifit use GeckoJs  to a better JavaScript code and compressions.

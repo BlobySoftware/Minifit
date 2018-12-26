@@ -1,6 +1,6 @@
 {
   "name": "minifit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minifit is a JavaScript compressor, beutify and compiler for ES6",
   "main": "index.js",
   "scripts": {
