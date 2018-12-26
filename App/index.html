@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Minifit | Keep simply</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bulma.min.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./icons/all.css">
+</head>
+<body>
+    <div id="back"></div>
+    <div id="mainUI">
+        <div class="field">
+            <div class="file is-boxed">
+                <label class="file-label">
+                    <input class="file-input" type="file" name="resume">
+                    <span class="file-cta">
+                        <span class="file-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </span>
+                        <span class="file-label">
+                            Choose a file
+                        </span>
+                    </span>
+                    <span class="compressBtn has-background-info">Minify and Compress</span>
+                </label>
+            </div>
+        </div>
+        <h1 id="titles">Minifit<br/><span>Keep simply</span></h1>
+        <div id="triangle"></div>
+    </div>
+    <div id="overlay">
+        <div id="uploader"></div>
+    </div>
+    <div id="paths">
+        <div id="forms">
+                <div class="field">
+                        <label class="label">From:</label>
+                        <div class="control has-icons-right">
+                          <input class="input" type="text" placeholder="File or directory path">
+                          <span class="icon is-small is-right">
+                                <i class="fas ics1 fa-folder"></i>
+                            </span>
+                        </div>
+                        <p class="help">Select origin files or a directory</p>
+                      </div>
+                      <div class="field">
+                            <label class="label scTo">To:</label>
+                            <div class="control has-icons-right">
+                              <input class="input" type="text" placeholder="File or directory path">
+                              <span class="icon ics2 is-small is-right">
+                                    <i class="fas fa-folder"></i>
+                                </span>
+                            </div>
+                            <p class="help">Select destiny files or a directory</p>
+                          </div>
+                          <div id="btns">
+                                <a class="button cancel is-danger is-outlined">Cancel</a>
+                                <a class="button compress is-success is-outlined">Compress</a>
+                          </div>
+                          <progress class="progress is-success" value="0" max="100">60%</progress>
+            </div>
+        </div>
+    </div>
+    <!-- <a class="delete is-medium"></a> -->
+</body>
+<script src="../node_modules/geckojs/gecko.js"></script>
+<script src="./js/main.js"></script>
+</html>

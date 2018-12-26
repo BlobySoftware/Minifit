@@ -1,0 +1,199 @@
+@font-face{
+    font-family: "PopL";
+    src: url("../fonts/Poppins-Light.otf");
+}
+@font-face{
+    font-family: "PopM";
+    src: url("../fonts/Poppins-Medium.otf");
+}
+@font-face{
+    font-family: "PopR";
+    src: url("../fonts/Poppins-Regular.otf");
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "PopM";
+}
+
+#back{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background:url("../img/Exercise.png") -165px 0;
+    background-size:cover;
+    z-index:1;
+}
+#overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background:url("../img/cover.png") -165px 0;
+    background-size:cover;
+    -webkit-app-region: drag;
+    z-index:3;
+    #uploader{
+        position: absolute;
+        top:190px;
+        left:60px;
+        width:280px;
+        height:140px;
+        background:transparent;
+        cursor: pointer;
+    }
+}
+
+#mainUI{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    z-index:2;
+    overflow: hidden;
+    #titles{
+        font-family: "PopL";
+        color:#fff;
+        font-size:70px;
+        margin:0;
+        line-height:45px;
+        position: absolute;
+        top:50px;
+        left:30px;
+        display:block;
+        width:230px;
+        text-shadow:0 0 30px rgba($color: #000000, $alpha: 0.2);
+        span{
+            position: absolute;
+            width:100%;
+            text-align:center;
+            margin:0 auto;
+            color:#fff;
+            font-size:0.4em;
+        }
+    }
+    #triangle{
+        width:390px;
+        height:390px;
+        background:#fff;
+        position: absolute;
+        bottom:-195px;
+        right:-195px;
+        z-index:2;
+        transform:rotate(45deg);
+    }
+    .field{
+        opacity:0.7;
+        position: absolute;
+        top:190px;
+        left:60px;
+        label{
+            .file-cta{
+                border-radius:10px 10px 0px 0px;
+                background:rgba(255, 255, 255,.6);
+                border:none;
+                width:280px;
+                height:140px;
+                color:#666;
+                .file-label{
+                    font-family:"PopM";
+                    font-size:35px;
+                    margin-top:-15px;
+                }
+                .file-icon{
+                    font-size:60px;
+                    position: relative;
+                    margin:0;
+                    margin-top:-8px;
+                    i{
+                        position: absolute;
+                        top:50%;
+                        left:50%;
+                        transform:translate(-50%,-50%);
+                    }
+                }
+            }
+            .compressBtn{
+                text-align:center;
+                padding:5px 0;
+                font-family:"PopR";
+                color:#fff;
+                font-size:20px;   
+                border-radius:0 0 10px 10px;
+            }
+        }
+    }
+}
+#paths{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100vh;
+    z-index: 4;
+    background:rgba($color: #000000, $alpha: 0.6);
+    display:none;
+    opacity:0;
+    #forms{
+        box-shadow:0 0 20px rgba($color: #000000, $alpha: 0.7);
+        border-radius:10px;
+        padding:15px;
+        background:#fff;
+        width:80%;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        #btns{
+            a{
+                background:#fff;
+            }
+            a:nth-child(1){
+                margin-right:5px;
+            }
+            a:nth-child(1):hover{
+                transition:all 0.3s ease;
+                background:#ff0537;
+            }
+            a:nth-child(2):hover{
+                transition:all 0.3s ease;
+                background:#23d160;
+            }
+            position: absolute;
+            bottom:/*45px*/20px;
+            right:15px;
+        }
+        .field:nth-child(2){
+            margin-top:-10px;
+            width:98%;
+        }
+        p{
+            color:#777;
+        }
+        label{
+            margin:0;
+        }
+        .scTo{
+            font-size:25px;
+            margin:0;
+        }
+        input{
+            padding:20px 33px 20px 10px;
+        }
+        .field .control .icon{
+            top:3px;
+            pointer-events: all;
+            cursor: pointer;
+        }
+        .progress{
+            display:none;
+            opacity:0;
+            margin-top:20px;
+            transition:all 0.3s ease;
+        }
+    }
+}
+
