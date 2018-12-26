@@ -8,6 +8,12 @@ Minifit is a JavaScript compressor, beutify and compiler for ES6, this app works
 ## For MacOs:
 [Minifit.dmg](https://drive.google.com/file/d/1A1k0-xQCDRoa0LKKIiXPfbCRAUUDfBX1/view?usp=sharing)
 
+# Build yourself
+
+```
+npm install
+npm run buildMac
+```
 
 ![](https://raw.githubusercontent.com/BlobySoftware/Minifit/master/cap.png)
 
