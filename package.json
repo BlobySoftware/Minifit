@@ -1,6 +1,6 @@
 {
   "name": "minifit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Minifit is a JavaScript compressor, beutify and compiler for ES6",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,18 @@
   "devDependencies": {
     "electron": "^4.0.0",
     "electron-packager": "^13.0.1"
-  }
+  },
+  "keywords": [
+    "uglify",
+    "es6",
+    "compression",
+    "compress",
+    "minfy",
+    "beutify",
+    "compilers",
+    "compiler",
+    "drag",
+    "drop",
+    "geckojs"
+  ]
 }
