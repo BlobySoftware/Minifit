@@ -1,8 +1,12 @@
 {
   "name": "minifit",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Minifit is a JavaScript compressor, beutify and compiler for ES6",
   "main": "index.js",
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/BlobySoftware/Minifit"
+  },
   "scripts": {
     "start": "electron .",
     "buildMac":"electron-packager . --overwrite --platform=darwin --arch=x64 --icon=App/icons/icon.icns --prune=true --out=release-builds",
