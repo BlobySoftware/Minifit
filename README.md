@@ -4,7 +4,7 @@ This is Minifit app source files to compile with [ElectronJs]("https://electronj
 
 Minifit is a JavaScript compressor, beutify and compiler for ES6, this app works with [GeckoJs]("https://blobysoftware.github.io/GeckoJsPage/")  for a better js code, this app have a simply design with [Bulma]("https://bulma.io/") and compressions by [UglifyJs]("https://www.npmjs.com/package/uglify-js").
 
-![](./cap.png)
+![](https://raw.githubusercontent.com/BlobySoftware/Minifit/master/cap.png)
 
 --------------------------------------------
 
@@ -17,7 +17,7 @@ Options box: you can select the output path of your files, with selection box or
 ## Output name
 Minifit converts by default all files extension (.js) to (.min.js) but you can change the output extension and the file name by other or change type of file like: from( file.js ) to ( file.ts ).
 
-![paths](./paths.png)
+![paths](https://raw.githubusercontent.com/BlobySoftware/Minifit/master/paths.png)
 
 ------------------------
 
