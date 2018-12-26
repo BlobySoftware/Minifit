@@ -4,9 +4,15 @@ This is Minifit app source files to compile with [ElectronJs]("https://electronj
 
 Minifit is a JavaScript compressor, beutify and compiler for ES6, this app works with [GeckoJs]("https://blobysoftware.github.io/GeckoJsPage/")  for a better js code, this app have a simply design with [Bulma]("https://bulma.io/") and compressions by [UglifyJs]("https://www.npmjs.com/package/uglify-js").
 
+# Download:
+## For MacOs:
+[Minifit.dmg](https://drive.google.com/file/d/1A1k0-xQCDRoa0LKKIiXPfbCRAUUDfBX1/view?usp=sharing)
+
+
 ![](https://raw.githubusercontent.com/BlobySoftware/Minifit/master/cap.png)
 
 --------------------------------------------
+
 
 ## Drag and Drop
 Just drag your files or folders to compress it , minifit know what files are compressed, and minify in 1 second, its compression on fly.
