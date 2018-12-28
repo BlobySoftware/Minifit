@@ -1,7 +1,7 @@
 {
   "name": "minifit",
   "productName" : "Minifit",
-  "version": "1.1.0",
+  "version": "1.1.5",
   "description": "Minifit is a JavaScript compressor, beutify and compiler for ES6",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,18 @@
     "geckojs": "^1.2.55",
     "uglify-es": "^3.3.9"
   },
+  "keywords":[
+    "minify",
+    "compression",
+    "uglifyjs",
+    "beutify",
+    "compiler",
+    "drag",
+    "drop",
+    "minifit",
+    "geckojs",
+    "es6"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/BlobySoftware/Minifit"
