@@ -1,15 +1,14 @@
 {
   "name": "minifit",
-  "version": "1.0.8",
+  "productName" : "Minifit",
+  "version": "1.0.9",
   "description": "Minifit is a JavaScript compressor, beutify and compiler for ES6",
   "main": "index.js",
-  "repository": {
-    "type": "Git",
-    "url": "https://github.com/BlobySoftware/Minifit"
-  },
   "scripts": {
     "start": "electron .",
-    "buildMac":"electron-packager . --overwrite --platform=darwin --arch=x64 --icon=App/icons/icon.icns --prune=true --out=release-builds",
+    "buildLinux": "electron-packager . minifit --overwrite --platform=linux --arch=x64 --icon=App/icons/icon.png --prune=true --out=release-builds",
+    "buildWin": "electron-packager . minifit --overwrite --platform=win32 --arch=ia32 --icon=App/icons/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName='Minifit'",
+    "buildMac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=App/icons/icon.icns --prune=true --out=release-builds",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bloby Software",
@@ -17,24 +16,11 @@
   "dependencies": {
     "bulma": "^0.7.2",
     "drag-drop": "^4.2.0",
-    "geckojs": "^1.2.74",
+    "geckojs": "^1.2.55",
     "uglify-es": "^3.3.9"
   },
   "devDependencies": {
     "electron": "^4.0.0",
     "electron-packager": "^13.0.1"
-  },
-  "keywords": [
-    "uglify",
-    "es6",
-    "compression",
-    "compress",
-    "minfy",
-    "beutify",
-    "compilers",
-    "compiler",
-    "drag",
-    "drop",
-    "geckojs"
-  ]
+  }
 }
