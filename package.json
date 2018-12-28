@@ -11,13 +11,17 @@
     "buildMac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=App/icons/icon.icns --prune=true --out=release-builds",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bloby Software",
+  "author": "BlobySoftware",
   "license": "MIT",
   "dependencies": {
     "bulma": "^0.7.2",
     "drag-drop": "^4.2.0",
     "geckojs": "^1.2.55",
     "uglify-es": "^3.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlobySoftware/Minifit"
   },
   "devDependencies": {
     "electron": "^4.0.0",

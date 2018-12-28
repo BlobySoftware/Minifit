@@ -13,7 +13,15 @@ Minifit is a JavaScript compressor, beutify and compiler for ES6, this app works
 
 ```
 npm install
-npm run buildMac
+
+#For MacOS
+npm run buildWin
+
+#For windows 32/64 bits
+npm run buildWin
+
+#For GNU/Linux
+npm run buildLinux
 ```
 
 ![](https://raw.githubusercontent.com/BlobySoftware/Minifit/master/cap.png)
