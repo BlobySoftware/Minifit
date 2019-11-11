@@ -15,7 +15,7 @@ Minifit is a JavaScript compressor, beutify and compiler for ES6, this app works
 npm install
 
 #For MacOS
-npm run buildWin
+npm run buildMac
 
 #For windows 32/64 bits
 npm run buildWin
